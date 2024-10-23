@@ -16,7 +16,10 @@
         <ul>
             {{ range .Site.Menus.link }}
             <li>
-                <a href="{{ .URL }}" target="_blank"><span>{{ .Name }}</span></a>
+                <a rel="me" href="{{ .URL }}" target="_blank">
+                    {{ if .icon }}<i class="{{ .Icon }}"></i>{{ end }}
+                    <span>{{ .Name }}</span>
+                </a>
             </li>
             {{ end }}
         </ul>
