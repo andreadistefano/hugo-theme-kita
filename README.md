@@ -197,7 +197,7 @@ You can use `[SITEROOT]/layouts/_default/_markup/render-link.html` to decide whe
 
 ### 📨 Comments area
 
-Theme supports Disqus, utterances and DisqusJS (for Mainland China user)。
+Theme supports Disqus, utterances and DisqusJS (for Mainland China user).
 
 by default, disqus uses `{{ .Permalink }}` as `url`, `{{ .File.ContentBaseName }}` as `identifier`.
 
