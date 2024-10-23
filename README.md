@@ -87,6 +87,32 @@ To disable comment area for specific post, add this in front matter:
 showComments = false # Do not show comments in this post
 ```
 
+### ✒️ Font settings
+You can include FontAwesome icons in your site by adding the following to your `config.toml`:
+
+```toml
+[params]
+  useFontAwesome = true
+```
+
+Then, if you want to use FontAwesome icons in your sidebar links, add the icon you want in the field `menu.link.params.icon` of your `[[menu.link]]` entries, like this:
+
+```toml
+[[menu.link]]
+  name = "GitHub"
+  url = "https://github.com/"
+  weight = 1
+  [menu.link.params]
+    icon = "fa-brands fa-github"
+
+[[menu.link]]
+  name = "Twitter"
+  url = "https://twitter.com/"
+  weight = 1
+  [menu.link.params]
+    icon = "fa-brands fa-twitter"
+```
+
 ### 🎵 APlayer
 
 In-post APlayer supported, you use the `aplayer` shortcode:
@@ -216,7 +242,7 @@ $body-font: -apple-system, BlinkMacSystemFont, 'SF Pro Text', 'Helvetica Neue', 
   'Arial', 'PingFang SC', 'Hiragino Sans GB', 'Source Han Sans CN', 'Source Han Sans SC',
   'Microsoft YaHei', 'WenQuanYi Micro Hei', sans-serif;
 $mono-font: 'Cascadia Code', 'SF Mono', 'Fira Code', 'Consolas', $body-font;
-$title-font: 'Product Sans', $body-font;
+$title-font: 'Noto Sans', $body-font;
 $body-font-size: 16px;
 
 $light-color-primary: #8aa2d3; // https://irocore.com/aofuji/
