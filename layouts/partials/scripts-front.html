@@ -1,0 +1,13 @@
+<script data-cfasync="false">
+  // detect theme data in localStorage
+  var kitaThemeData = localStorage.getItem('kita_data-theme');
+  // if first look, set theme mode to auto
+  if (!kitaThemeData) {
+    localStorage.setItem('kita_data-theme', 'auto');
+  } else {
+    // if not auto mode, change the data-theme attribute of body
+    if (kitaThemeData !== 'auto') {
+      document.body.setAttribute('data-theme', kitaThemeData === 'dark' ? 'dark' : 'light');
+    }
+  }
+</script>
