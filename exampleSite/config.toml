@@ -53,6 +53,9 @@ summaryLength = 100 # Custom summary length, add <!--more--> in post file to cus
   # Copyright
   copyrightStartYear = "2024"
 
+  # favicon
+  replaceFavicon = false
+
   # Open Graph & Twitter Card variables
   # You can also set description and images in post front matter individually
   description = "A minimal Hugo theme with nice theme color."

@@ -61,9 +61,16 @@ git submodule update --remote --merge
 
 ### 🎨 Favicon
 
-Create `[SITEROOT]/layouts/partials/favicon.html` to override theme's favicon.
+In `config.toml`:
 
-If you want to use a simple emoji favicon, just copy the following code to your `favicon.html`:
+```toml
+[params]
+  replaceFavicon = true
+```
+
+Then, create `[SITEROOT]/layouts/partials/custom_favicon.html` to override the theme's default favicon.
+
+If you want to use a simple emoji favicon, just copy the following code to your `custom_favicon.html`:
 
 ```html
 <link
@@ -73,9 +80,8 @@ If you want to use a simple emoji favicon, just copy the following code to your 
 ```
 See `layouts/partials/favicon.html` for an example.
 
-Otherwise, you can provide your favicon, or generate it using an online service, for example [realfavicongenerator.net](https://realfavicongenerator.net/). \
-See `exampleSite/layouts/partials/favicon.html` and `exampleSite\static\assets\favicon` for an example.
-
+Otherwise, you can provide your own favicon or generate it using an online service, for example [realfavicongenerator.net](https://realfavicongenerator.net/). \
+See `exampleSite/layouts/partials/custom_favicon.html` and `exampleSite/static/assets/favicon` for an example.
 
 ### ❌ License, toc and comments
 
