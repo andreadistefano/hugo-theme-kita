@@ -61,9 +61,11 @@ git submodule update --remote --merge
 
 ### 🎨 Favicon
 
-Create `[SITEROOT]/layouts/partials/favicon.html` to cover theme's favicon.
+Create `[SITEROOT]/layouts/partials/favicon.html` to cover theme's favicon. \
+See `exampleSite/layouts/partials/favicon.html` and `exampleSite\static\assets\favicon` for an example.
 
 You can generate your favicons in [realfavicongenerator.net](https://realfavicongenerator.net/).
+
 
 ### ❌ License, toc and comments
 
