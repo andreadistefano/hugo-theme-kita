@@ -95,19 +95,22 @@ You can include FontAwesome icons in your site by adding the following to your `
   useFontAwesome = true
 ```
 
-Then, if you want to use FontAwesome icons in your sidebar links, add the icon you want in the field `pre` of your `[[menu.link]]` entries, like this:
+Then, if you want to use FontAwesome icons in your sidebar links, add the icon you want in the field `menu.link.params.icon` of your `[[menu.link]]` entries, like this:
+
 ```toml
 [[menu.link]]
   name = "GitHub"
   url = "https://github.com/"
   weight = 1
-  pre = "fa-brands fa-github"
+  [menu.link.params]
+    icon = "fa-brands fa-github"
 
 [[menu.link]]
   name = "Twitter"
   url = "https://twitter.com/"
   weight = 1
-  pre = "fa-brands fa-twitter"
+  [menu.link.params]
+    icon = "fa-brands fa-twitter"
 ```
 
 ### 🎵 APlayer

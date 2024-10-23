@@ -135,12 +135,14 @@ summaryLength = 100 # Custom summary length, add <!--more--> in post file to cus
     name = "GitHub"
     url = "https://github.com/andreadistefano"
     weight = 1
-    pre = "fa-brands fa-github"
+    [params]
+      icon = "fa-brands fa-github"
   [[menu.link]]
     name = "Twitter"
     url = "https://twitter.com/"
     weight = 2
-    pre = "fa-brands fa-twitter"
+    [params]
+      icon = "fa-brands fa-twitter"
 
 [build]
   noJSConfigInAssets = true
