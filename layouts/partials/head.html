@@ -8,7 +8,11 @@
 {{ hugo.Generator }}
 
 <!-- favicon -->
+{{ if .Site.Params.replaceFavicon }}
+{{ partial "custom_favicon.html" . }}
+{{ else }}
 {{ partial "favicon.html" . }}
+{{ end }}
 <!-- seo metadata -->
 {{ if and (.IsHome) (.Site.Params.subTitle) }}
 <title>{{ .Site.Title }} - {{ .Site.Params.subTitle }}</title>
