@@ -1,12 +1,10 @@
-# 🍥 Kita 🍥
+# 🏔️ Kita 🏔️
 
 Kita is a minimal Hugo theme with full dark mode support and GitHub Primer markdown style. Forked from [Fuji](https://github.com/dsrkafuu/hugo-theme-fuji/), which seems abandoned since 2022.
 
 ![GitHub release](https://img.shields.io/github/v/release/andreadistefano/hugo-theme-kita)
 ![GitHub build status](https://img.shields.io/github/actions/workflow/status/andreadistefano/hugo-theme-kita/pages.yml?branch=main)
 ![GitHub license](https://img.shields.io/github/license/andreadistefano/hugo-theme-kita)
-
-[English](https://github.com/andreadistefano/hugo-theme-kita#readme)
 
 Supported languages: `cs`, `de`, `en`, `eo`, `fr`, `ja`, `nl`, `pl`, `pt-pt`, `zh-hans`, `zh-hant`. Check the i18n folder to add more languages.
 
