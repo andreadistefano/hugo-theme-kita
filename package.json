@@ -1,0 +1,23 @@
+{
+  "name": "hugo-theme-kita",
+  "version": "2.8.2",
+  "description": "A minimal Hugo theme with nice theme color.",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/andreadistefano/hugo-theme-kita.git"
+  },
+  "keywords": [
+    "hugo",
+    "theme",
+    "kita"
+  ],
+  "author": "FratelloBigio <hello@fratellobigio.com> (https://fratellobigio.com/)",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/andreadistefano/hugo-theme-kita/issues"
+  },
+  "homepage": "https://github.com/andreadistefano/hugo-theme-kita",
+  "dependencies": {
+    "@primer/css": "17.2.1"
+  }
+}

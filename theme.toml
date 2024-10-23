@@ -1,0 +1,14 @@
+# https://github.com/gohugoio/hugoThemesSiteBuilder#theme-configuration
+
+name = "Kita"
+license = "Apache-2.0"
+licenselink = "https://github.com/andreadistefano/hugo-theme-kita/blob/master/LICENSE"
+description = "A minimal Hugo theme."
+homepage = "https://github.com/andreadistefano/hugo-theme-kita/"
+demosite = "https://kita.fratellobigio.com"
+tags = ["blog", "minimal", "responsive", "dark mode"]
+features = ["blog", "minimal", "responsive", "dark mode"]
+
+[author]
+name = "FratelloBigio"
+homepage = "https://fratellobigio.com/"
