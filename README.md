@@ -61,9 +61,21 @@ git submodule update --remote --merge
 
 ### 🎨 Favicon
 
-Create `[SITEROOT]/layouts/partials/favicon.html` to cover theme's favicon.
+Create `[SITEROOT]/layouts/partials/favicon.html` to override theme's favicon.
 
-You can generate your favicons in [realfavicongenerator.net](https://realfavicongenerator.net/).
+If you want to use a simple emoji favicon, just copy the following code to your `favicon.html`:
+
+```html
+<link
+  rel="icon"
+  href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>REPLACE WITH THE EMOJI YOU WANT TO USE</text></svg>"
+/>
+```
+See `layouts/partials/favicon.html` for an example.
+
+Otherwise, you can provide your favicon, or generate it using an online service, for example [realfavicongenerator.net](https://realfavicongenerator.net/). \
+See `exampleSite/layouts/partials/favicon.html` and `exampleSite\static\assets\favicon` for an example.
+
 
 ### ❌ License, toc and comments
 

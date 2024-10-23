@@ -1,5 +1,5 @@
 baseURL = "https://kita.fratellobigio.com/"
-title = "Hugo Theme Kita"
+title = "🏔️ Hugo Theme Kita"
 
 theme = "kita"
 hasCJKLanguage = true
@@ -86,11 +86,11 @@ summaryLength = 100 # Custom summary length, add <!--more--> in post file to cus
 
   # custom lazyload placeholder
   # 16:9
-  lazyPlaceholder = "/assets/lazyload/dsrca_loading_480x270.svg"
+  lazyPlaceholder = "/assets/lazyload/480x270_16-9.svg"
   # 32:9
-  lazyPlaceholderRow = "/assets/lazyload/dsrca_loading_960x270.svg"
+  lazyPlaceholderRow = "/assets/lazyload/960x270_32-9.svg"
   # 8:9
-  lazyPlaceholderCol = "/assets/lazyload/dsrca_loading_480x540.svg"
+  lazyPlaceholderCol = "/assets/lazyload/480x540_8-9.svg"
 
   # Let images display in full brightness under dark mode
   # disableDarkImage = true
