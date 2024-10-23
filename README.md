@@ -1,4 +1,4 @@
-# 🏔️ Kita 🏔️
+# 🏔️ Kita
 
 Kita is a minimal Hugo theme with full dark mode support and GitHub Primer markdown style. Forked from [Fuji](https://github.com/dsrkafuu/hugo-theme-fuji/), which seems abandoned since 2022.
 
