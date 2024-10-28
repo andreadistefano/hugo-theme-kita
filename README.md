@@ -290,7 +290,7 @@ Feel free to use the [issue tracker](https://github.com/andreadistefano/hugo-the
 
 ## 📝 License
 
-The theme is released under the `Apache License 2.0`, for more information read the [License](https://github.com/andreadistefano/hugo-theme-kita/blob/master/LICENSE).
+The theme is released under the `MIT License`, for more information read the [License](https://github.com/andreadistefano/hugo-theme-kita/blob/master/LICENSE).
 
 - [Primer CSS - MIT](https://github.com/primer/css/blob/master/LICENSE)
 - [APlayer - MIT](https://github.com/MoePlayer/APlayer/blob/master/LICENSE)
