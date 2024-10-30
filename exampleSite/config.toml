@@ -64,9 +64,6 @@ summaryLength = 100 # Custom summary length, add <!--more--> in post file to cus
   # Posts shown in homepage
   mainSections = ["post"]
 
-  # Bangumi image chart id
-  # bgmImageChart = "000000"
-
   # License
   license = "CC BY-NC-SA 4.0"
   licenseLink = "http://creativecommons.org/licenses/by-nc-sa/4.0/"
