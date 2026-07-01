@@ -16,8 +16,5 @@
   "bugs": {
     "url": "https://github.com/andreadistefano/hugo-theme-kita/issues"
   },
-  "homepage": "https://github.com/andreadistefano/hugo-theme-kita",
-  "dependencies": {
-    "@primer/css": "17.2.1"
-  }
+  "homepage": "https://github.com/andreadistefano/hugo-theme-kita"
 }
