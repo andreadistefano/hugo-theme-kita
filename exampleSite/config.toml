@@ -9,7 +9,7 @@ disableKinds = ["taxonomy"]
 ignoreErrors = ["error-disable-taxonomy"]
 
 ## Change this two to switch between different language
-languageCode = "en"           # For RSS, view https://www.rssboard.org/rss-language-codes
+locale = "en"                 # For RSS, view https://www.rssboard.org/rss-language-codes
 defaultContentLanguage = "en" # For HTML page, now support: en, zh-hans, zh-hant, ja, nl, pl, it
 
 summaryLength = 100 # Custom summary length, add <!--more--> in post file to custom split point
@@ -28,7 +28,7 @@ summaryLength = 100 # Custom summary length, add <!--more--> in post file to cus
   home = ["HTML", "RSS", "SearchIndex"]
 
 [permalinks]
-  post = "/:section/:filename/" # Custom post links, e.g. "/:year/:month/:title/"
+  post = "/:section/:contentbasename/" # Custom post links, e.g. "/:year/:month/:title/"
 
 [params]
   author = "FratelloBigio"           # You can also set author in post front matter individually
