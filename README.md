@@ -37,6 +37,9 @@ Remember to add [summary divider](https://gohugo.io/content-management/summaries
 
 ## 🐣 Getting started
 
+**Requirements:** Hugo **extended**, version **0.144.0 or newer** (the theme uses the
+`:contentbasename` permalink token). The theme is built and tested against Hugo `0.163.3`.
+
 Inside the folder of your Hugo site run:
 
 ```bash
@@ -292,7 +295,7 @@ Feel free to use the [issue tracker](https://github.com/andreadistefano/hugo-the
 
 The theme is released under the `MIT License`, for more information read the [License](https://github.com/andreadistefano/hugo-theme-kita/blob/master/LICENSE).
 
-- [Primer CSS - MIT](https://github.com/primer/css/blob/master/LICENSE)
+- [Primer CSS - MIT](https://github.com/primer/css/blob/main/LICENSE) (vendored under `assets/scss/_primer/`, v22.3.0)
 - [APlayer - MIT](https://github.com/MoePlayer/APlayer/blob/master/LICENSE)
 - [lazysizes - MIT](https://github.com/aFarkas/lazysizes/blob/gh-pages/LICENSE)
 - [DisqusJS - MIT](https://github.com/SukkaW/DisqusJS/blob/master/LICENSE)

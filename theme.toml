@@ -4,6 +4,8 @@ name = "Kita"
 license = "Apache-2.0"
 licenselink = "https://github.com/andreadistefano/hugo-theme-kita/blob/master/LICENSE"
 description = "A minimal Hugo theme."
+# Requires the ":contentbasename" permalink token (added in Hugo 0.144.0).
+min_version = "0.144.0"
 homepage = "https://github.com/andreadistefano/hugo-theme-kita/"
 demosite = "https://kita.fratellobigio.com"
 tags = ["blog", "minimal", "responsive", "dark mode"]
