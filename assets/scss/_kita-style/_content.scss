@@ -97,6 +97,34 @@
 article {
   padding-bottom: 1.5rem;
 
+  .post-lead {
+    margin: 1.25rem 0.1rem 0 0.1rem;
+    padding-bottom: 1rem;
+    border-bottom: 1px solid var(--color-divider);
+    font-size: 1.2rem;
+    line-height: 1.6;
+    color: var(--color-mute);
+
+    p {
+      margin: 0;
+    }
+
+    // hide headings if any slipped into the summary (mirrors .post-summary)
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+      display: none;
+    }
+  }
+
+  // when a lead is present, tighten the gap above the body
+  .post-lead + .post-content {
+    margin-top: 1rem;
+  }
+
   .post-content {
     margin: 1.25rem 0.1rem 0 0.1rem;
   }

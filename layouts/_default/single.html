@@ -7,9 +7,20 @@
     <div class="post-item post-meta">
         {{ partial "post-meta.html" . }}
     </div>
+    <!-- lead / standfirst: the summary before the <!--more--> divider -->
+    {{ $body := .Content }}
+    {{ if .Truncated }}
+        {{ $rest := .Content | strings.TrimPrefix .Summary }}
+        {{ if ne $rest .Content }}
+            <div class="post-lead markdown-body">
+                {{ .Summary }}
+            </div>
+            {{ $body = $rest }}
+        {{ end }}
+    {{ end }}
     <!-- post main content -->
     <div class="post-content markdown-body">
-        {{ .Content }}
+        {{ $body }}
     </div>
 </article>
 <!-- post license -->
