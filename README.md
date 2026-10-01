@@ -134,6 +134,21 @@ Then, if you want to use FontAwesome icons in your sidebar links, add the icon y
     icon = "fa-brands fa-twitter"
 ```
 
+If the same link comes in several variants (e.g. a CV in different languages), list them in `menu.link.params.alternates` to show them on a single line, like "CV: EN · IT". Each alternate is linked instead of the entry's own `url`:
+
+```toml
+[[menu.link]]
+  name = "CV"
+  url = "/cv.pdf"
+  weight = 1
+  [menu.link.params]
+    icon = "fa-solid fa-file-pdf"
+    alternates = [
+      { name = "EN", url = "/cv.pdf" },
+      { name = "IT", url = "/cv-it.pdf" },
+    ]
+```
+
 ### 🎵 APlayer
 
 In-post APlayer supported, you use the `aplayer` shortcode:

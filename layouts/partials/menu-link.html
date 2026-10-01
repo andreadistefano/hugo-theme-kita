@@ -1,0 +1,22 @@
+{{- /*
+  One [[menu.link]] entry, shared by the sidebar and the mobile menu.
+  With params.alternates (a list of { name, url }), the entry is rendered on one line as
+  "<icon> Name: A · B", linking each alternate instead of the entry's own url
+  (e.g. the same document in several languages).
+*/ -}}
+{{- $rel := .Params.rel -}}
+{{- with .Params.alternates -}}
+<span>
+    {{ with $.Params.icon }}<i class="{{ . }}"></i>{{ end }}
+    <span>{{ $.Name }}:</span>
+    {{- range $i, $alt := . }}
+    {{ if $i }}<span aria-hidden="true">·</span>{{ end }}
+    <a {{ with $rel }}rel="{{ . }}"{{ end }} href="{{ $alt.url }}" target="_blank">{{ $alt.name }}</a>
+    {{- end }}
+</span>
+{{- else -}}
+<a {{ with $rel }}rel="{{ . }}"{{ end }} href="{{ .URL }}" target="_blank">
+    {{ with .Params.icon }}<i class="{{ . }}"></i>{{ end }}
+    <span>{{ .Name }}</span>
+</a>
+{{- end -}}
