@@ -28,10 +28,7 @@
         <ul>
             {{ range .Site.Menus.link }}
             <li>
-                <a {{ with .Params.rel }}rel="{{ . }}"{{ end }} href="{{ .URL }}" target="_blank">
-                    {{ with .Params.icon }}<i class="{{ . }}"></i>{{ end }}
-                    <span>{{ .Name }}</span>
-                </a>
+                {{ partial "menu-link.html" . }}
             </li>
             {{ end }}
         </ul>
